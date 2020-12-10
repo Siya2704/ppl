@@ -3,6 +3,12 @@ class Animals:
 		self.legs = legs
 		self.eyes = eyes
 		self.ears = ears
+	#abstract class
+	def place(self):
+		pass
+	#virtual class
+	def eat(self):
+		print("eats food")
 			
 class Domestic(Animals):
 	def place(self):
@@ -107,7 +113,7 @@ class lion(Wild, Carnivores):
 		print("10-14 years")
 		
 
-k = Animals(4,2,2)
+#k = Animals(4,2,2)
 a = deer()
 a.eat()
 a.speak()
