@@ -3,10 +3,10 @@ class Animals:
 		self.legs = legs
 		self.eyes = eyes
 		self.ears = ears
-	#abstract class
+	#abstract method
 	def place(self):
 		pass
-	#virtual class
+	#virtual method
 	def eat(self):
 		print("eats food")
 			
